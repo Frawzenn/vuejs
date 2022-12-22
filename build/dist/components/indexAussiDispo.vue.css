@@ -1,0 +1,39 @@
+
+.contAussiDispo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+}
+.textAussiDispo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width:700px;
+        margin-top: 100px;
+}
+.textAussiDispo h3{
+        font-weight: 800;
+        font-size: 41px;
+        line-height: 63px;
+        background: linear-gradient(89.6deg, #D99CF0 -2.19%, #927BF9 102.14%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+}
+.textAussiDispo p{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 30px;
+        color: #000000;
+        padding: 0 20px;
+        text-align: justify;
+}
+.imageAussiDispo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 100px 30px ;
+}

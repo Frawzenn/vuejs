@@ -1,0 +1,71 @@
+
+.nomArtiste{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+.nomArtiste a{
+    width: 20%;
+    color: white;
+    padding: 30px 0;
+    border-right: grey solid 2px;
+}
+.nomArtiste a:last-child{
+    border-right: none;
+}
+.nomArtiste .active{
+    background: linear-gradient(72.83deg, #D48AE6 0%, #9A82FC 100%);
+    border-radius: 10px 10px 0 0 ;
+    border-right: none;
+}
+.imageArtiste img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.imageArtiste{
+    width: 100%;
+    height: 600px;
+}
+.contArtiste{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+.artisteBasGauche{
+    position: absolute;
+    top: 85%;
+    left: 9%;
+}
+.artisteBasGauche h4{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.artisteBasGauche p {
+    color: white;
+    font-size: 15px;
+    font-weight: light;
+}
+.artisteBasDroite a{
+    padding: 14px;
+    background: linear-gradient(72.83deg, #D48AE6 0%, #9A82FC 100%);
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+}
+.artisteBasDroite{
+    position: absolute;
+    right: 10%;
+    top : 89%
+}
+  
+
+

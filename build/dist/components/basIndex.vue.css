@@ -1,0 +1,80 @@
+
+.contBasIndex svg{
+        position: absolute;
+        left: 22%;
+        top: 29%;
+        transform: translate(-50%, -50%);
+        z-index: 0;
+}
+.contBasIndex {
+        position: relative;
+        height: 1000px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+}
+.contBasIndex h3 {
+        font-style: normal;
+        font-weight: 800;
+        font-size: 50px;
+        line-height: 76px;
+        color: white;
+        z-index: 1;
+        position: relative;
+        margin: 200px 0 150px 0;
+}
+.contBulleBasIndex{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 100px;
+}
+.bulleBasIndex{
+        position: relative;
+        background: rgba(0, 0, 0, 0.2);
+        border-radius: 30px;
+        margin: 40px 50px ;
+        padding: 30px;
+        width: 300px;
+}
+.chiffreBulleBasIndex{
+        position: absolute;
+        left: 20%;
+        top: 2%;
+        transform: translate(-50%, -50%);
+        background: linear-gradient(135deg, #D79CF1 0%, #967DF9 100%);
+        border-radius: 14px;
+        height: 60px;
+        width: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 44px;
+        color: white;
+}
+.bulleBasIndex h4 {
+        font-style: normal;
+        font-weight: 800;
+        font-size: 25px;
+        line-height: 38px;
+        background: linear-gradient(89.6deg, #D99CF0 -2.19%, #927BF9 102.14%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        margin-top: 20px ;
+}
+.bulleBasIndex {
+        font-style: normal;
+        font-weight: 100;
+        font-size: 14px;
+        line-height: 20px;
+        color: white;
+}
+
+
+

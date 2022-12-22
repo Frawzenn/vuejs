@@ -1,0 +1,11 @@
+
+.homeHaut{
+    background: radial-gradient(51.9% 336.54% at 51.9% 50%, #241B4D 0%, #1B1B1B 100%);
+    font-family: 'montserra', sans-serif;
+    border-bottom-left-radius: 150px ;
+    border-bottom-right-radius: 150px;
+}
+.homeBas{
+    background: white;
+    font-family: 'montserra', sans-serif;
+}
